@@ -17,4 +17,3 @@ func main() {
 	r.Run() 
 }
 
-cd
