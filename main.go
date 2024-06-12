@@ -9,6 +9,7 @@ func main() {
 		c.JSON(200, gin.H{
 			"message": "skill-map-home-page",
 		})
+	})
 	r.GET("/login", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "user-login-required",
